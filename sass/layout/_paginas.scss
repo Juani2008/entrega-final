@@ -1,0 +1,43 @@
+//import
+@use '../utilities/mixin' as *;
+@use '../utilities/variables' as *;
+
+//menu navegacion
+header{
+    nav{
+        .menu-navegacion-elementos{        
+            @include flex (10px, 5px, $color-primario, solid 1px $color-secundario);
+            justify-content: space-around;
+            padding: 10px;
+            list-style: none;
+        }
+    }
+}
+
+//hogar, urbano, viajes
+.titulo-paginas{
+    @include flex (4%, 4px, $color-primario, solid 1px $color-secundario);
+    font-size: 10px;
+    margin-top: 10px;
+    justify-content: center;
+
+}
+
+
+.productos-paginas{
+        @include flex (4%, 4px, $color-primario, solid 1px $color-secundario);
+        flex-direction: column;
+        border-bottom: 50px;
+    }
+
+.producto-items{
+        @include flex (5%, 4px, $color-primario, solid 1px $color-secundario);
+    }
+
+.productos-imagen{
+        @include imagenes (150px, auto);
+        margin: 20px;
+    } 
+.contenedor-productos{
+        border: none
+}

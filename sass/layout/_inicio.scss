@@ -1,0 +1,20 @@
+//import
+@use "../utilities/variables" as *;
+@use "../utilities/mixin" as *;
+
+
+.titulo{
+    @include flex (5% 20%, 4px, $color-primario, 0);
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+div{
+    .titulo-imagen{
+        @include imagenes (150px, auto);
+    }
+    .titulo-parrafo{
+        margin: 10px;
+    }
+}

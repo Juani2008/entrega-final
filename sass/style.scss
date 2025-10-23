@@ -1,0 +1,16 @@
+//import
+
+//carpeta utilities
+@use "./utilities/variables" as *;
+@use "./utilities/mixin" as *;
+
+//carpeta base
+@use "./base/reset" as *;
+
+//carpeta layout
+@use "./layout/inicio" as *;
+@use "./layout/paginas" as *;
+@use "./layout/contacto" as *;
+
+
+

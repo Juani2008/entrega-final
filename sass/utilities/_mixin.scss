@@ -1,0 +1,15 @@
+
+//con y sin parametros
+@mixin flex ($margin, $border-radius, $background-color, $border){
+    align-items: center;
+    display: flex;
+    margin: $margin;
+    border-radius: $border-radius;
+    background-color: $background-color;
+    border: $border;
+}
+//con parametros
+@mixin imagenes ($width, $height){
+    width: $width;
+    height: $height;
+}
