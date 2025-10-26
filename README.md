@@ -1,1 +1,2 @@
-No se al momento que abran ustedes el trabajo para corregir, pero en esto momento la pagina hosteada no se actualizo, por lo tanto no muestra dos cambios importantes que hice, en el codigo de git hub si aparecen, pero no en la vista de la pagina. mas tarde revisare y me fijo si cambio, por las dudas lo dejo por escrito
+No se al momento que abran ustedes el trabajo para corregir, pero en esto momento la pagina hosteada no se actualizo, por lo tanto no muestra dos cambios importantes que hice, en el codigo de git hub si aparecen, pero no en la vista de la pagina. mas tarde revisare y me fijo si cambio, por las dudas lo dejo por escrito.
+Ya pude solucionar el error, les dejo el mensaje por si a ustedes les sigue apareciendo, pero creo que no
